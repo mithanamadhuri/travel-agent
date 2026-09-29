@@ -8,7 +8,7 @@ async function generatePlan() {
   document.getElementById("result").innerText =
     "🤖 Creating your travel plan...";
 
-  const response = await fetch("YOUR_WEBHOOK_URL", {
+  const response = await fetch("https://madhuri-reddy06.app.n8n.cloud/webhook-test/travel-agent", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
